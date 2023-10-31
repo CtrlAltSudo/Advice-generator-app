@@ -7,7 +7,34 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: hsl(218, 23%, 16%)
 }
 #mainContainer {
-    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color:  hsl(217, 19%, 24%);
+    border-radius: 0.5rem;
+    padding: 2rem;
+    position: relative;
+}
+#mainContainer .pattern {
+    padding-bottom: 3rem;
+}
+#mainContainer .icon {
+    margin-top: 1.1rem;
+    height: 1.5rem;
+}
+#iconBackground {
+    background-color: hsl(150, 100%, 66%);
+    width: 4rem;
+    height: 4rem;
+    margin: 0 auto;
+    position: absolute;
+    left: 14rem;
+    top: 7rem;
+    border-radius: 50%;
+}
+.attribution {
+    margin-top: 5rem;
 }
