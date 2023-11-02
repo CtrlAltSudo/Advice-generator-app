@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
 }
 body {
     display: flex;
@@ -15,11 +16,21 @@ body {
     text-align: center;
     background-color:  hsl(217, 19%, 24%);
     border-radius: 0.5rem;
-    padding: 2rem;
+    padding: 2rem 3rem 0 3rem;
     position: relative;
+    max-width: 30rem;
 }
-#mainContainer .pattern {
-    padding-bottom: 3rem;
+h1 {
+    color: hsl(150, 100%, 66%);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 12px;
+}
+p {
+    color: hsl(193, 38%, 86%);
+    font-size: 28px;
+    font-weight: 800;
 }
 #mainContainer .icon {
     margin-top: 1.1rem;
@@ -30,13 +41,32 @@ body {
     background-color: hsl(150, 100%, 66%);
     width: 4rem;
     height: 4rem;
-    margin: 0 auto;
-    position: absolute;
-    left: 14rem;
-    top: 13rem;
+    align-self: center;
+    position: relative;
+    left: 0rem;
+    top: 2rem;
     border-radius: 50%;
     cursor: pointer;
 }
 .attribution {
     margin-top: 5rem;
 }
+.patternMobile {
+    display: none;
+}
+
+@media only screen and (max-width: 375px) {
+    .patternDesktop {
+        display: none;
+    }
+    .patternMobile {
+        display: block;
+    }
+    #mainContainer {
+        padding: 1rem 1rem 0 1rem;
+        margin: 0 1rem 0 1rem;
+    }
+    p {
+        margin-top: 0.5rem;
+    }
+  }
