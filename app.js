@@ -2,11 +2,11 @@ const adviceText = document.querySelector("p");
 const adviceId = document.querySelector("span")
 const button = document.querySelector("#iconBackground")
 
-addEventListener("load", (event) => {
+addEventListener("load", () => {
 updateData();
 });
 
-button.addEventListener("click", (event) => {
+button.addEventListener("click", () => {
   updateData()
 });
 
