@@ -19,7 +19,7 @@ This is a Frontend Mentor challenge, click the link above to visit the challenge
 <p>Advice Api<p>
 
 ## What I learnt 
-This is my first time submitting a challenge with an API, it took me ages to figure out how to stop Firefox to stop caching the data from the advice API, next time I'll try using Axios.
+This is my first time submitting a challenge with an API, it took me ages to figure out how to stop Firefox from caching the data from the advice API, next time I'll try using Axios.
 
 
 ## Authors
